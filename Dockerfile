@@ -6,8 +6,11 @@ WORKDIR /app
 # Install pnpm
 RUN npm install -g pnpm
 
-# Copy package.json and lockfile
-COPY package.json pnpm-lock.yaml ./
+# Copy package.json, lockfile, and npmrc
+COPY package.json pnpm-lock.yaml .npmrc* ./
+
+# Disable ignore-scripts for pnpm to allow native builds like argon2
+RUN pnpm config set ignore-scripts false
 
 # Install dependencies
 RUN pnpm install --frozen-lockfile
