@@ -1,0 +1,29 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Build output
+dist/
+build/
+
+# Environment Variables
+.env
+.env.local
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Performance Test Artifacts (Sensitive/Generated Data)
+performance/tokens.csv
+performance/test-env.json

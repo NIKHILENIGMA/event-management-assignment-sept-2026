@@ -1,0 +1,22 @@
+# Implementation Todo List
+
+- [x] 1. Initialize NestJS
+- [x] 2. Configure Drizzle ORM/PostgreSQL
+- [x] 3. Define schema
+- [x] 4. Implement auth
+- [x] 5. Implement role guards
+- [x] 6. Implement event CRUD
+- [x] 7. Implement baseline booking
+- [x] 8. Implement optimized booking
+- [x] 9. Add BullMQ + Upstash
+- [x] 10. Add Resend/Test email providers
+- [x] 11. Add event-update notifications
+- [x] 12. Add tests
+- [ ] 13. Deploy Render
+- [ ] 14. Run baseline k6 tests
+- [ ] 15. Measure bottleneck
+- [ ] 16. Optimize (Already part of optimized booking, but need to confirm performance delta)
+- [ ] 17. Run identical optimized tests
+- [ ] 18. Record results
+- [ ] 19. Finish README
+- [ ] 20. Record demo video
